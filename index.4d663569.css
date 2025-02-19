@@ -40,6 +40,7 @@ section img.background {
 }
 
 h1 {
+  color: #faf9fa;
   margin: 0;
   font-family: Cormorant Garamond, serif;
   font-size: 7rem;
@@ -48,6 +49,7 @@ h1 {
 }
 
 h2 {
+  color: #ef93ea;
   margin: 0;
   padding-top: 1rem;
   font-size: 2rem;
@@ -55,6 +57,7 @@ h2 {
 }
 
 h3 {
+  color: #ef93ea;
   margin: 0;
   font-size: 1.25rem;
   font-weight: 400;
@@ -84,16 +87,16 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: #ef93ea;
 }
 
 a {
-  color: #000;
+  color: #f8b1e7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4e567e;
+  color: #79d3f7d3;
 }
 
 .container {
@@ -105,7 +108,7 @@ a:hover {
 
 .container .box {
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #64e3ff;
   border-radius: 10px;
   flex-direction: column;
   justify-content: flex-start;

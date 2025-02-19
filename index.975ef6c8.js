@@ -27120,8 +27120,8 @@ var _stylesCss = require("./styles.css");
     twitter: "https://x.com/Piyushj8i",
     youTube: ""
 };
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#93d9ef";
+const secondaryColor = "#93d9ef";
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "main",
@@ -27238,7 +27238,7 @@ const About = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    backgroundColor: "white",
+                    backgroundColor: "aqua",
                     width: "50%",
                     padding: "4rem",
                     margin: "3rem auto",
@@ -27323,7 +27323,44 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/motion-background.jpg":"kzNvo"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27473,44 +27510,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"kzNvo":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27681,7 +27681,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://twitter.com/${twitter}`,
+                        href: `https://x.com/${twitter}`,
                         target: "_blank",
                         rel: "noopener noreferrer",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28558,7 +28558,7 @@ const Header = ()=>{
             display: "flex",
             justifyContent: "center",
             gap: "2rem",
-            background: "rgba(255,255,255,0.75)",
+            background: "rgba(4, 88, 255, 0.75)",
             padding: "1rem",
             top: 0,
             width: "100%",
@@ -28645,8 +28645,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
-var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
+ */ var _pyxisWallpaperPng = require("../images/pyxis wallpaper.png");
+var _pyxisWallpaperPngDefault = parcelHelpers.interopDefault(_pyxisWallpaperPng);
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28655,7 +28655,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _womanWithTabletJpgDefault.default),
+                src: (0, _pyxisWallpaperPngDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28738,11 +28738,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/woman-with-tablet.jpg":"bEltf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/pyxis wallpaper.png":"5hnQP"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"bEltf":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"5hnQP":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "pyxis wallpaper.7e95e964.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
