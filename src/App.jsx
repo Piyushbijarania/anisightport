@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Piyush Choudhary",
-  title: "Web3 Developer & Content Creator",
+  title: "Web3 Developer & Ai Explorer",
   email: "piyush.gag6513@gmail.com",
   gitHub: "https://github.com/Piyushbijarania",
   instagram: "",
