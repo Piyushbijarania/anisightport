@@ -93,11 +93,11 @@ li {
 }
 
 li::marker {
-  color: #ef93ea;
+  color: #53074f;
 }
 
 a {
-  color: rgb(248, 177, 231);
+  color: rgb(78, 8, 61);
   text-decoration: none;
 }
 
